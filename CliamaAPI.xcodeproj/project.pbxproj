@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		737212731FE01936003C46E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737212721FE01936003C46E8 /* AppDelegate.swift */; };
-		737212751FE01936003C46E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737212741FE01936003C46E8 /* ViewController.swift */; };
-		737212781FE01936003C46E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737212761FE01936003C46E8 /* Main.storyboard */; };
-		7372127A1FE01936003C46E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737212791FE01936003C46E8 /* Assets.xcassets */; };
-		7372127D1FE01936003C46E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7372127B1FE01936003C46E8 /* LaunchScreen.storyboard */; };
+		737212881FE0199F003C46E8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737212841FE0199E003C46E8 /* WeatherViewController.swift */; };
+		737212891FE0199F003C46E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737212851FE0199E003C46E8 /* Main.storyboard */; };
+		7372128A1FE0199F003C46E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 737212861FE0199F003C46E8 /* LaunchScreen.xib */; };
+		7372128B1FE0199F003C46E8 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737212871FE0199F003C46E8 /* WeatherDataModel.swift */; };
+		7372128E1FE019B4003C46E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7372128C1FE019B4003C46E8 /* Images.xcassets */; };
+		7372128F1FE019B4003C46E8 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7372128D1FE019B4003C46E8 /* ChangeCityViewController.swift */; };
+		C139E5A189A97FD3C4FF2DF4 /* Pods_CliamaAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5BD014251DDD3D4E062AD4 /* Pods_CliamaAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F2935CFD128F896D10C04A4 /* Pods-CliamaAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CliamaAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CliamaAPI/Pods-CliamaAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		7372126F1FE01936003C46E8 /* CliamaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CliamaAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		737212721FE01936003C46E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		737212741FE01936003C46E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		737212771FE01936003C46E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		737212791FE01936003C46E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7372127C1FE01936003C46E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7372127E1FE01936003C46E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737212841FE0199E003C46E8 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		737212851FE0199E003C46E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		737212861FE0199F003C46E8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		737212871FE0199F003C46E8 /* WeatherDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		7372128C1FE019B4003C46E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7372128D1FE019B4003C46E8 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		9B5BD014251DDD3D4E062AD4 /* Pods_CliamaAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CliamaAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7E7CD61FB46E059542E48C /* Pods-CliamaAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CliamaAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-CliamaAPI/Pods-CliamaAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C139E5A189A97FD3C4FF2DF4 /* Pods_CliamaAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F4D281CBCD016B6D3EDBA53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5BD014251DDD3D4E062AD4 /* Pods_CliamaAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A0336E6EFDD15B1DA73BCA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2935CFD128F896D10C04A4 /* Pods-CliamaAPI.debug.xcconfig */,
+				BE7E7CD61FB46E059542E48C /* Pods-CliamaAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		737212661FE01936003C46E8 = {
 			isa = PBXGroup;
 			children = (
 				737212711FE01936003C46E8 /* CliamaAPI */,
 				737212701FE01936003C46E8 /* Products */,
+				5A0336E6EFDD15B1DA73BCA2 /* Pods */,
+				3F4D281CBCD016B6D3EDBA53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				737212721FE01936003C46E8 /* AppDelegate.swift */,
-				737212741FE01936003C46E8 /* ViewController.swift */,
-				737212761FE01936003C46E8 /* Main.storyboard */,
-				737212791FE01936003C46E8 /* Assets.xcassets */,
-				7372127B1FE01936003C46E8 /* LaunchScreen.storyboard */,
 				7372127E1FE01936003C46E8 /* Info.plist */,
+				737212861FE0199F003C46E8 /* LaunchScreen.xib */,
+				7372128D1FE019B4003C46E8 /* ChangeCityViewController.swift */,
+				7372128C1FE019B4003C46E8 /* Images.xcassets */,
+				737212851FE0199E003C46E8 /* Main.storyboard */,
+				737212871FE0199F003C46E8 /* WeatherDataModel.swift */,
+				737212841FE0199E003C46E8 /* WeatherViewController.swift */,
 			);
 			path = CliamaAPI;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 737212811FE01936003C46E8 /* Build configuration list for PBXNativeTarget "CliamaAPI" */;
 			buildPhases = (
+				B1C1E68BB957AD700B7E03B2 /* [CP] Check Pods Manifest.lock */,
 				7372126B1FE01936003C46E8 /* Sources */,
 				7372126C1FE01936003C46E8 /* Frameworks */,
 				7372126D1FE01936003C46E8 /* Resources */,
+				DB47584ECF974B72D18F01B6 /* [CP] Embed Pods Frameworks */,
+				961810B9EE08DBD1FAFD609E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,44 +156,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7372127D1FE01936003C46E8 /* LaunchScreen.storyboard in Resources */,
-				7372127A1FE01936003C46E8 /* Assets.xcassets in Resources */,
-				737212781FE01936003C46E8 /* Main.storyboard in Resources */,
+				7372128E1FE019B4003C46E8 /* Images.xcassets in Resources */,
+				7372128A1FE0199F003C46E8 /* LaunchScreen.xib in Resources */,
+				737212891FE0199F003C46E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		961810B9EE08DBD1FAFD609E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CliamaAPI/Pods-CliamaAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C1E68BB957AD700B7E03B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CliamaAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB47584ECF974B72D18F01B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CliamaAPI/Pods-CliamaAPI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CliamaAPI/Pods-CliamaAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7372126B1FE01936003C46E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				737212751FE01936003C46E8 /* ViewController.swift in Sources */,
 				737212731FE01936003C46E8 /* AppDelegate.swift in Sources */,
+				737212881FE0199F003C46E8 /* WeatherViewController.swift in Sources */,
+				7372128B1FE0199F003C46E8 /* WeatherDataModel.swift in Sources */,
+				7372128F1FE019B4003C46E8 /* ChangeCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		737212761FE01936003C46E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				737212771FE01936003C46E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7372127B1FE01936003C46E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7372127C1FE01936003C46E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7372127F1FE01936003C46E8 /* Debug */ = {
@@ -272,6 +346,7 @@
 		};
 		737212821FE01936003C46E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2935CFD128F896D10C04A4 /* Pods-CliamaAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +362,7 @@
 		};
 		737212831FE01936003C46E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7E7CD61FB46E059542E48C /* Pods-CliamaAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

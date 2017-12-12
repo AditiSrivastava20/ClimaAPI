@@ -1,0 +1,6 @@
+framework module Pods_CliamaAPI {
+  umbrella header "Pods-CliamaAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
